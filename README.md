@@ -1,43 +1,75 @@
 # BMC-ITSM
 
-I have developed a **BMC ITSM Android app** for **internal testing purposes only**.  
-⚠️ **Note:** This is **not a public release**. The official **BMC ITSM (BMC Remedy)** product is owned by **BMC Software, Inc.** ([bmc.com](https://www.bmc.com)).
+![Status](https://img.shields.io/badge/status-internal%20testing-yellow)
+![Platform](https://img.shields.io/badge/platform-Android-blue)
+![Security](https://img.shields.io/badge/security-BeyondIdentity-green)
+![License](https://img.shields.io/badge/license-Proprietary-red)
 
 ---
 
-## 📱 Smart_IT Android APK
+## 📖 Overview
 
-Hello Everyone,  
+This project provides a **BMC ITSM (Smart_IT) Android app** developed for **internal testing purposes only**.  
 
-This repository contains the **Smart_IT Android APK** that we use within our team for testing and evaluation.
+⚠️ **Note:**  
+This is **not a public release**. The official **BMC ITSM (BMC Remedy)** product is owned by **BMC Software, Inc.** ([bmc.com](https://www.bmc.com)).
 
 ---
 
-## 🔗 GitHub Links
+## 📦 Repository & Downloads
 
 - **Repository:** [BMC-ITSM](https://github.com/sumit-kumawat/BMC-ITSM)  
-- **APK Download:** [ITSM.apk](https://github.com/sumit-kumawat/BMC-ITSM/blob/main/ITSM.apk)
+- **Latest APK:** [Download ITSM.apk](https://github.com/sumit-kumawat/BMC-ITSM/blob/main/ITSM.apk)
 
 ---
 
-## ⚙️ Installation Instructions
+## 🛠️ Installation Guide
 
-1. **Install APK before Intelligent HUB Enrollment**  
-   - Intelligent HUB restricts the installation of untrusted apps after enrollment.  
-   - Hence, install the APK **before** enrolling your device.
+### Step 1 – Pre-Installation
+- Install this app **before** enrolling your device in **Intelligent HUB**.  
+- HUB will block untrusted APKs once enrollment is complete.
 
-2. **Enroll Device in Intelligent HUB**  
-   - After APK installation, proceed with HUB enrollment.
+### Step 2 – Device Enrollment
+- Configure and enroll your device using **Intelligent HUB**.
 
-3. **Install Required Security Apps**  
-   - Install **Okta**, **BeyondIdentity**, or any other organization-mandated security applications.
+### Step 3 – Security Applications
+- Install mandatory security/authentication apps such as:  
+  - **Okta**  
+  - **BeyondIdentity**  
+  - Any other organization-required apps  
 
-4. **Authentication**  
-   - The app will authenticate using **BeyondIdentity**.
+### Step 4 – Authentication
+- The app uses **BeyondIdentity** for secure authentication.
+
+---
+
+## ✅ Requirements
+
+- **OS:** Android 9 (Pie) or later  
+- **Device Management:** VMware Intelligent HUB enrolled device  
+- **Network:** Corporate VPN / Secure Wi-Fi  
+
+---
+
+## 🔐 Security & Compliance
+
+- Authentication handled via **BeyondIdentity**.  
+- Device management enforced through **Intelligent HUB**.  
+- APK is signed internally for distribution.  
+
+---
+
+## 📌 Notes
+
+- This APK is intended **only for internal team usage**.  
+- Do not distribute outside the organization.  
+- Ensure HUB and Okta/BeyondIdentity are kept up-to-date.  
 
 ---
 
 ## 🛑 Disclaimer
 
 This application is created **only for internal testing and evaluation**.  
-All rights to **BMC ITSM (BMC Remedy)** belong to **BMC Software, Inc.**
+All rights to **BMC ITSM (BMC Remedy)** belong to **BMC Software, Inc.**  
+
+---
